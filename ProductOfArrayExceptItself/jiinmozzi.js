@@ -1,7 +1,3 @@
-/**
- * @param {number[]} nums
- * @return {number[]}
- */
 var productExceptSelf = function(nums) {
     
     if (nums.indexOf(0) !== nums.lastIndexOf(0)){
@@ -22,6 +18,6 @@ var productExceptSelf = function(nums) {
     for (let i=0; i<nums.length -1; i++){
         result.push( initial * (nums[i]/nums[i+1]) ) ;
         initial *= (nums[i]/nums[i+1]);
-    }
+    } 
     return result; 
-};
+}; 

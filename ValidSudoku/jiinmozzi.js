@@ -63,7 +63,7 @@ var isValidSudoku = function(board) {
             }
         }    
         return true;
-    }
+    } 
     return validateSudoku();
 };
 
