@@ -1,2 +1,2 @@
 # Solving Leetcode practices
-* pracites list: https://neetcode.io/practice
+* practices list: https://neetcode.io/practice
