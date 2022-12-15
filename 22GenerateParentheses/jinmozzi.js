@@ -30,3 +30,4 @@ var generateParenthesis = function(n) {
     const result = dp[2*n-1].map(e => e[0]);
     return result;
 };
+
